@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_menu_person"
+            android:title="@string/edit_user_nav" />
+        <item
+            android:id="@+id/nav_change_monitor"
+            android:icon="@drawable/ic_menu_supervise"
+            android:title="@string/change_monitor_nav" />
+        <item
+            android:id="@+id/nav_monitored_by_me"
+            android:icon="@drawable/ic_menu_supervise"
+            android:title="@string/list_monitored_nav" />
+        <item
+            android:id="@+id/nav_my_monitors"
+            android:icon="@drawable/ic_menu_supervise"
+            android:title="@string/list_monitoring_nav" />
+
+        <item
+            android:id="@+id/nav_group_features"
+            android:icon="@drawable/ic_menu_group"
+            android:title="@string/group_features_nav" />
+
+        <item
+            android:id="@+id/nav_start_walk"
+            android:icon="@drawable/ic_menu_walk"
+            android:title="@string/start_walk_nav" />
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/dashboard_nav" />
+
+        <item
+            android:id="@+id/nav_perimission"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/permission_nav" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/history_nav" />
+
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/leaderboard_nav" />
+
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="@string/shop_nav" />
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_menu_out"
+            android:title="@string/sign_out_nav" />
+
+    </group>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/nav_panic"
+                android:icon="@drawable/ic_menu_panic"
+                android:title="@string/panic_nav" />
+        </menu>
+    </item>
+
+</menu>

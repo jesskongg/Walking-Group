@@ -1,0 +1,150 @@
+<resources>
+    <!-- Global -->
+    <!-- Be careful while editing these -->
+    <string name="app_name">Walking Group</string>
+    <string name="cmpt276_server_api_key">74858C21-4A6F-471C-8991-80B70469C1C1C</string>
+
+    <!-- Shared -->
+    <!-- Be careful while editing these -->
+    <string name="add_button">ADD</string>
+    <string name="remove_button">REMOVE</string>
+
+    <!-- ChangeMonitorActivity -->
+    <string name="add_monitored_label">Add user who I monitor</string>
+    <string name="add_monitoring_label">Add user who monitors me</string>
+    <string name="remove_monitored_label">Remove user who I monitor</string>
+    <string name="remove_monitoring_label">Remove user who monitors me</string>
+
+    <!-- DashboardActivity -->
+    <string name="inbox_button">INBOX</string>
+    <string name="dashboard_map_button">VIEW MONITORED USERS</string>
+
+    <!-- HistoryActivity -->
+    <string name="history_label">Request History</string>
+
+    <!-- LeaderboardActivity -->
+    <string name="leaderboard_label">Leaderboard</string>
+
+    <!-- ListMonitorActivity -->
+    <string name="empty_monitor_list_label">No users found</string>
+
+    <!-- MainMenuActivity -->
+    <string name="edit_user_nav">Edit Profile</string>
+    <string name="change_monitor_nav">Change Monitor</string>
+    <string name="list_monitored_nav">Monitored By Me</string>
+    <string name="list_monitoring_nav">My Monitors</string>
+    <string name="group_features_nav">Group Features</string>
+    <string name="start_walk_nav">Start Walk</string>
+    <string name="dashboard_nav">Dashboard</string>
+    <string name="panic_nav">Panic</string>
+    <string name="history_nav">Permission History</string>
+    <string name="sign_out_nav">Sign Out</string>
+    <string name="permission_nav">Permission Requests</string>
+    <string name="leaderboard_nav">Leaderboard</string>
+    <string name="shop_nav">Shop</string>
+    <string name="title_activity_main_menu">My Achievements</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="sticker_header">Sticker Collection</string>
+
+    <!-- PermissionActivity -->
+    <string name="pending_requests_label">Pending Requests</string>
+    <string name="previous_requests_label">Previous Requests</string>
+    <string name="no_requests_label">No pending requests</string>
+    <string name="request_approve_button">Approve</string>
+    <string name="request_deny_button">Deny</string>
+    <string name="request_cancel_button">Cancel</string>
+    <string name="grant_request_label">Do you want grant permission for this action?</string>
+
+    <!-- group_features -->
+    <string name="list_groups_I_lead">MY GROUPS</string>
+    <string name="list_groups_I_Am_In">JOINED GROUPS</string>
+    <string name="create_new_group">CREATE GROUP</string>
+    <string name="join_group_by_map_button">JOIN WALKING GROUP BY MAP</string>
+
+    <!-- activity_sign_up & activity_sign_in strings -->
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="email_sign_up_in_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="disclaimer_text">You agree to Walking Group\'s Privacy Policy and our Terms of Service</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="sign_up_button">Agree and Join</string>
+    <string name="sign_in_text">ALREADY A MEMBER? SIGN IN</string>
+
+    <!--activity_list_monitor strings-->
+    <string name="no_monitor_who_monitor_user_string">There is no monitors for current user. </string>
+    <string name="add_monitored_user_to_group">Add monitored user to group</string>
+
+    <!-- activity_add_monitor and activity_remove_monitor strings -->
+    <string name="email_hint">Email</string>
+
+    <!-- activity_create_groups_maps strings -->
+    <string name="search_bar_hint">Search here</string>
+
+    <!-- activity_create_new_group strings -->
+    <string name="group_description_text">Group Description</string>
+    <string name="create_group_button">Create Group</string>
+    <string name="setup_walking_locations_button">Setup Walking Locations</string>
+
+    <!-- activity_leave_group strings -->
+    <string name="btn_leave_group">Leave Group</string>
+    <string name="no_group_that_monitored_user_in_string">Monitored user in no groups</string>
+    <string name="no_member_group_string">User is not member of any group</string>
+    <string name="no_leader_group_string">User is not leader of any group</string>
+    <string name="no_member_string">No member in this group</string>
+
+    <!-- activity_Specific_User -->
+    <string name="name">Name: </string>
+    <string name="Email">Email:  </string>
+    <string name="ListMemberOfAGroup_TextView">List All Members Of A Group</string>
+    <string name="ListInfoOfAUser_TextView">List All Info Of A User</string>
+    <string name="ListInfoOfMonitoed_TextView">List Info Of Monitors</string>
+
+    <!-- activity_edit_user and activity_edit_users_menu strings -->
+    <string name="txt_edit_user">Edit User</string>
+    <string name="txt_edit_name">Name</string>
+    <string name="txt_edit_email">Email</string>
+    <string name="txt_edit_birth_year">Birth year</string>
+    <string name="txt_edit_birth_month">Birth Month</string>
+    <string name="txt_edit_address">Address</string>
+    <string name="txt_edit_cellphone">CellPhone</string>
+    <string name="txt_edit_homephone">HomePhone</string>
+    <string name="txt_edit_grade">Grade</string>
+    <string name="txt_edit_teacher_name">Teacher Name</string>
+    <string name="txt_edit_emergency_contact_info">Emergency Contact</string>
+    <string name="btn_confirm">Confirm</string>
+
+    <!-- activity_edit_users_menu strings -->
+    <string name="btn_edit_myself">Edit myself</string>
+    <string name="btn_edit_monitored">Edit Monitored Users</string>
+
+    <!-- activity_inbox strings -->
+    <string name="view_all_messages_button">All Messages</string>
+    <string name="view_unread_messages_button">Unread</string>
+
+    <!-- activity_send_message strings -->
+    <string name="message_subject_hint">Subject</string>
+    <string name="message_body_hint">Compose Message</string>
+    <string name="send_message_button">Send</string>
+
+    <!-- activity_panic strings -->
+    <string name="txt_emergency_message">SEND EMERGENCY MESSAGE</string>
+    <string name="btn_panic_message">SEND PANIC MESSAGE</string>
+
+    <!-- activity_select_group strings -->
+    <string name="select_group_text">Select group to walk with</string>
+    <string name="walk_start_text">Start</string>
+    <string name="walk_end_text">Destination</string>
+
+    <!-- activity_shop strings -->
+    <string name="shop_buy_btn">Buy</string>
+    <string name="shop_use_btn">Use</string>
+    <string name="shop_title">Shop</string>
+    <string name="shop_description">Cost: 60 Points Each Icon</string>
+
+
+
+</resources>

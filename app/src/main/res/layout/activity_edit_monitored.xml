@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_interface.edit_info_activities.EditMonitoredActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView1"
+                android:layout_width="166dp"
+                android:layout_height="35dp"
+                android:text="@string/txt_edit_name"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_monitored_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView2"
+                android:layout_width="166dp"
+                android:layout_height="35dp"
+                android:text="@string/txt_edit_email"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_monitored_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView3"
+                android:layout_width="166dp"
+                android:layout_height="35dp"
+                android:text="@string/txt_edit_birth_year"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_monitored_birth_yr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView4"
+                android:layout_width="166dp"
+                android:layout_height="35dp"
+                android:text="@string/txt_edit_birth_month"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_monitored_birth_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView5"
+                android:layout_width="166dp"
+                android:layout_height="35dp"
+                android:text="@string/txt_edit_address"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_monitored_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView6"
+                android:layout_width="166dp"
+                android:layout_height="35dp"
+                android:text="@string/txt_edit_cellphone"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_monitored_cell_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView7"
+                android:layout_width="166dp"
+                android:layout_height="35dp"
+                android:text="@string/txt_edit_homephone"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_monitored_home_phn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/txt_edit_grade" />
+
+            <EditText
+                android:id="@+id/edit_monitored_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/txt_edit_teacher_name" />
+
+            <EditText
+                android:id="@+id/edit_monitored_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/etextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/txt_edit_emergency_contact_info" />
+
+            <EditText
+                android:id="@+id/edit_monitored_emergency_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/etextView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txt_edit_user"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ebtn_confirm"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="60dp"
+        android:text="@string/btn_confirm" />
+
+
+</RelativeLayout>

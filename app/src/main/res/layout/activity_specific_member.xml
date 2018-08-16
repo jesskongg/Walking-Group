@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_interface.group_activities.ShowSpecificMemberActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:paddingLeft="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ListInfoOfAUser_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/ListInfoOfAUser_TextView"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name"/>
+
+        <TextView
+            android:id="@+id/Name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Email"/>
+        <TextView
+            android:id="@+id/email_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ListInfoOfMonitoed_TextView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/ListInfoOfMonitoed_TextView"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <ListView
+            android:id="@+id/Specific_user_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:longClickable="true">
+
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/no_Monitored_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/no_monitor_who_monitor_user_string"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressbar4"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
