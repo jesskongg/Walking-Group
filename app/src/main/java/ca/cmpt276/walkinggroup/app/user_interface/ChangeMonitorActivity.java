@@ -123,13 +123,13 @@ public class ChangeMonitorActivity extends AppCompatActivity {
             case ADD_MONITORING:
                 addCaller = proxy.addToMonitoredByUsers(currentUser.getId(), otherUser);
                 ProxyBuilder.callProxy(ChangeMonitorActivity.this, addCaller,
-                        x -> showResult("Added monitoring user"));
+                        x -> showResult("Request Sent"));
                 break;
 
             case REMOVE_MONITORED:
                 removeCaller = proxy.removeFromMonitorsUsers(currentUser.getId(), otherUser.getId());
                 ProxyBuilder.callProxy(ChangeMonitorActivity.this, removeCaller,
-                        x -> showResult("Removed monitored user"));
+                        x -> showResult("Request Sent"));
                 break;
 
             case REMOVE_MONITORING:
