@@ -15,9 +15,11 @@
     <string name="remove_monitored_label">Remove user who I monitor</string>
     <string name="remove_monitoring_label">Remove user who monitors me</string>
 
-    <!-- DashboardActivity -->
-    <string name="inbox_button">INBOX</string>
-    <string name="dashboard_map_button">VIEW MONITORED USERS</string>
+    <!-- monitor features strings -->
+    <string name="manage_monitors_button">Manage Monitors</string>
+    <string name="monitorees_button">Who I Monitor</string>
+    <string name="monitors_button">My Monitors</string>
+    <string name="monitored_map_button">View Monitored Users</string>
 
     <!-- HistoryActivity -->
     <string name="history_label">Request History</string>
@@ -29,19 +31,16 @@
     <string name="empty_monitor_list_label">No users found</string>
 
     <!-- MainMenuActivity -->
-    <string name="edit_user_nav">Edit Profile</string>
-    <string name="change_monitor_nav">Change Monitor</string>
-    <string name="list_monitored_nav">Monitored By Me</string>
-    <string name="list_monitoring_nav">My Monitors</string>
+    <string name="edit_user_nav">Profile</string>
+    <string name="change_monitor_nav">Monitor Features</string>
     <string name="group_features_nav">Group Features</string>
     <string name="start_walk_nav">Start Walk</string>
-    <string name="dashboard_nav">Dashboard</string>
+    <string name="inbox_nav">Inbox</string>
     <string name="panic_nav">Panic</string>
     <string name="history_nav">Permission History</string>
     <string name="sign_out_nav">Sign Out</string>
     <string name="permission_nav">Permission Requests</string>
     <string name="leaderboard_nav">Leaderboard</string>
-    <string name="shop_nav">Shop</string>
     <string name="title_activity_main_menu">My Achievements</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -50,11 +49,7 @@
 
     <!-- PermissionActivity -->
     <string name="pending_requests_label">Pending Requests</string>
-    <string name="previous_requests_label">Previous Requests</string>
     <string name="no_requests_label">No pending requests</string>
-    <string name="request_approve_button">Approve</string>
-    <string name="request_deny_button">Deny</string>
-    <string name="request_cancel_button">Cancel</string>
     <string name="grant_request_label">Do you want grant permission for this action?</string>
 
     <!-- group_features -->
@@ -77,6 +72,7 @@
     <!--activity_list_monitor strings-->
     <string name="no_monitor_who_monitor_user_string">There is no monitors for current user. </string>
     <string name="add_monitored_user_to_group">Add monitored user to group</string>
+    <string name="my_groups_title">My Groups</string>
 
     <!-- activity_add_monitor and activity_remove_monitor strings -->
     <string name="email_hint">Email</string>
@@ -85,9 +81,9 @@
     <string name="search_bar_hint">Search here</string>
 
     <!-- activity_create_new_group strings -->
-    <string name="group_description_text">Group Description</string>
+    <string name="group_name">Enter a group name</string>
     <string name="create_group_button">Create Group</string>
-    <string name="setup_walking_locations_button">Setup Walking Locations</string>
+    <string name="set_walking_locations">Set Walking Locations</string>
 
     <!-- activity_leave_group strings -->
     <string name="btn_leave_group">Leave Group</string>
@@ -117,10 +113,6 @@
     <string name="txt_edit_emergency_contact_info">Emergency Contact</string>
     <string name="btn_confirm">Confirm</string>
 
-    <!-- activity_edit_users_menu strings -->
-    <string name="btn_edit_myself">Edit myself</string>
-    <string name="btn_edit_monitored">Edit Monitored Users</string>
-
     <!-- activity_inbox strings -->
     <string name="view_all_messages_button">All Messages</string>
     <string name="view_unread_messages_button">Unread</string>
@@ -138,13 +130,5 @@
     <string name="select_group_text">Select group to walk with</string>
     <string name="walk_start_text">Start</string>
     <string name="walk_end_text">Destination</string>
-
-    <!-- activity_shop strings -->
-    <string name="shop_buy_btn">Buy</string>
-    <string name="shop_use_btn">Use</string>
-    <string name="shop_title">Shop</string>
-    <string name="shop_description">Cost: 60 Points Each Icon</string>
-
-
 
 </resources>

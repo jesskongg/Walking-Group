@@ -5,13 +5,29 @@
     android:layout_height="match_parent"
     tools:context=".user_interface.group_activities.ManageLeadsGroupActivity">
 
-    <ListView
-        android:id="@+id/LeadGroup_listview"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:longClickable="true">
+        android:orientation="vertical">
 
-    </ListView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45sp"
+            android:text="@string/my_groups_title"
+            android:textSize="18dp"
+
+            />
+
+        <ListView
+            android:id="@+id/LeadGroup_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:longClickable="true">
+
+        </ListView>
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"

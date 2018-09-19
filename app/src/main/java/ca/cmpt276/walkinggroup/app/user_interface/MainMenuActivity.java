@@ -14,7 +14,6 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,10 +24,12 @@ import ca.cmpt276.walkinggroup.app.model.EarnedTitlesDialog;
 import ca.cmpt276.walkinggroup.app.model.Preferences;
 import ca.cmpt276.walkinggroup.app.model.Rewards;
 import ca.cmpt276.walkinggroup.app.model.Session;
-import ca.cmpt276.walkinggroup.app.user_interface.edit_info_activities.EditUsersMenuActivity;
+import ca.cmpt276.walkinggroup.app.user_interface.edit_info_activities.EditUserActivity;
 import ca.cmpt276.walkinggroup.app.user_interface.group_activities.ManageGroupsActivity;
 import ca.cmpt276.walkinggroup.app.user_interface.group_activities.SelectGroupActivity;
+import ca.cmpt276.walkinggroup.app.user_interface.message_activities.InboxActivity;
 import ca.cmpt276.walkinggroup.app.user_interface.message_activities.PanicActivity;
+import ca.cmpt276.walkinggroup.app.user_interface.monitor_activities.MonitorFeaturesActivity;
 import ca.cmpt276.walkinggroup.app.user_interface.sign_up_in_activities.SignUpActivity;
 import ca.cmpt276.walkinggroup.dataobjects.EarnedRewards;
 import ca.cmpt276.walkinggroup.dataobjects.User;
@@ -85,19 +86,11 @@ public class MainMenuActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_edit_profile) {
-            Intent intent = EditUsersMenuActivity.makeIntent(MainMenuActivity.this);
+            Intent intent = EditUserActivity.makeIntent(MainMenuActivity.this);
             startActivity(intent);
             finish();
-        } else if (id == R.id.nav_change_monitor) {
-            Intent intent = ChangeMonitorActivity.makeIntent(MainMenuActivity.this);
-            startActivity(intent);
-        } else if (id == R.id.nav_monitored_by_me) {
-            Intent intent = ListMonitorActivity.makeIntent(
-                    MainMenuActivity.this, ListMonitorActivity.MONITORED);
-            startActivity(intent);
-        } else if (id == R.id.nav_my_monitors) {
-            Intent intent = ListMonitorActivity.makeIntent(MainMenuActivity.this,
-                    ListMonitorActivity.MONITORING);
+        } else if (id == R.id.nav_monitor_features) {
+            Intent intent = MonitorFeaturesActivity.makeIntent(MainMenuActivity.this);
             startActivity(intent);
         } else if (id == R.id.nav_group_features) {
             Intent intent = ManageGroupsActivity.makeIntent(MainMenuActivity.this);
@@ -106,8 +99,8 @@ public class MainMenuActivity extends AppCompatActivity
             Intent intent = SelectGroupActivity.makeIntent(MainMenuActivity.this);
             startActivity(intent);
             finish();
-        } else if (id == R.id.nav_dashboard) {
-            Intent intent = DashboardActivity.makeIntent(MainMenuActivity.this);
+        } else if (id == R.id.nav_inbox) {
+            Intent intent = InboxActivity.makeIntent(MainMenuActivity.this);
             startActivity(intent);
         } else if (id == R.id.nav_sign_out) {
             Preferences.clear();
@@ -125,10 +118,6 @@ public class MainMenuActivity extends AppCompatActivity
         } else if (id == R.id.nav_leaderboard) {
             Intent intent = LeaderboardActivity.makeIntent(MainMenuActivity.this);
             startActivity(intent);
-        } else if (id == R.id.nav_shop) {
-            Intent intent = ShopActivity.makeIntent(MainMenuActivity.this);
-            startActivity(intent);
-            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

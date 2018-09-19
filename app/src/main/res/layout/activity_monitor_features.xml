@@ -5,30 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="40dp"
     android:gravity="center"
-    tools:context=".user_interface.group_activities.CreateNewGroupActivity">
+    android:padding="40dp"
 
-
-
-    <EditText
-        android:id="@+id/edit_GroupDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="14"
-        android:hint="@string/group_name"
-        android:inputType="textPersonName" />
+    tools:context=".user_interface.monitor_activities.MonitorFeaturesActivity">
 
     <Button
-        android:id="@+id/set_walking_locations_button"
+        android:id="@+id/manage_monitor_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/set_walking_locations" />
+        android:text="@string/manage_monitors_button" />
 
     <Button
-        android:id="@+id/btn_Confirm_createGroup"
+        android:id="@+id/monitorees_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/create_group_button" />
+        android:text="@string/monitorees_button" />
 
+    <Button
+        android:id="@+id/monitors_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/monitors_button" />
+
+    <Button
+        android:id="@+id/monitors_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/monitored_map_button" />
 </LinearLayout>

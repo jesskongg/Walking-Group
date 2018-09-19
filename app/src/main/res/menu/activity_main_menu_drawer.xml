@@ -9,17 +9,9 @@
             android:icon="@drawable/ic_menu_person"
             android:title="@string/edit_user_nav" />
         <item
-            android:id="@+id/nav_change_monitor"
+            android:id="@+id/nav_monitor_features"
             android:icon="@drawable/ic_menu_supervise"
             android:title="@string/change_monitor_nav" />
-        <item
-            android:id="@+id/nav_monitored_by_me"
-            android:icon="@drawable/ic_menu_supervise"
-            android:title="@string/list_monitored_nav" />
-        <item
-            android:id="@+id/nav_my_monitors"
-            android:icon="@drawable/ic_menu_supervise"
-            android:title="@string/list_monitoring_nav" />
 
         <item
             android:id="@+id/nav_group_features"
@@ -32,29 +24,24 @@
             android:title="@string/start_walk_nav" />
 
         <item
-            android:id="@+id/nav_dashboard"
-            android:icon="@drawable/ic_menu_dashboard"
-            android:title="@string/dashboard_nav" />
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_menu_email"
+            android:title="@string/inbox_nav" />
 
         <item
             android:id="@+id/nav_perimission"
-            android:icon="@drawable/ic_menu_dashboard"
+            android:icon="@drawable/ic_menu_permission"
             android:title="@string/permission_nav" />
 
         <item
             android:id="@+id/nav_history"
-            android:icon="@drawable/ic_menu_dashboard"
+            android:icon="@drawable/ic_menu_permission"
             android:title="@string/history_nav" />
 
         <item
             android:id="@+id/nav_leaderboard"
-            android:icon="@drawable/ic_menu_dashboard"
+            android:icon="@drawable/ic_menu_leaderboard"
             android:title="@string/leaderboard_nav" />
-
-        <item
-            android:id="@+id/nav_shop"
-            android:icon="@drawable/ic_shopping_cart"
-            android:title="@string/shop_nav" />
 
         <item
             android:id="@+id/nav_sign_out"

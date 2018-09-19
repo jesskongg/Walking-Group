@@ -1,5 +1,7 @@
 package ca.cmpt276.walkinggroup.app.user_interface.edit_info_activities;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,6 +13,7 @@ import android.widget.Toast;
 import ca.cmpt276.walkinggroup.app.R;
 import ca.cmpt276.walkinggroup.app.model.Preferences;
 import ca.cmpt276.walkinggroup.app.model.Session;
+import ca.cmpt276.walkinggroup.app.user_interface.MainMenuActivity;
 import ca.cmpt276.walkinggroup.dataobjects.User;
 import ca.cmpt276.walkinggroup.proxy.ProxyBuilder;
 import ca.cmpt276.walkinggroup.proxy.WGServerProxy;
@@ -104,9 +107,9 @@ public class EditUserActivity extends AppCompatActivity {
          EditText editTeacherView = findViewById(R.id.edit_teacher);
          EditText editEmergencyContactView = findViewById(R.id.edit_emergency_contact);
 
-        Button btn = findViewById(R.id.btn_confirm);
+        Button confirmButton = findViewById(R.id.btn_confirm);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "onClick: Confirm Button is working");
@@ -152,10 +155,23 @@ public class EditUserActivity extends AppCompatActivity {
             private void doNothing(User returnedUser) {
                 Log.d(TAG, "doNothing: Successful edit!!!");
                 Toast.makeText(EditUserActivity.this,"Successfully edited user!",Toast.LENGTH_SHORT);
+
+                Intent intent = MainMenuActivity.makeIntent(EditUserActivity.this);
+                startActivity(intent);
                 finish();
             }
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = MainMenuActivity.makeIntent(EditUserActivity.this);
+        startActivity(intent);
+        finish();
+    }
 
+    public static Intent makeIntent(Context context) {
+        return new Intent(context, EditUserActivity.class);
+    }
 }
