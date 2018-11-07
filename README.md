@@ -13,6 +13,5 @@ Features of this application include:
 * Ability to join or create a walking group (using Google Place Picker API)
 * Messaging (either emergency or non-emergency messages between groups or parents)
 * Automatic GPS uploading (as a background service)
-* Purchasable titles
-* Purchasable themes
+* Purchasable stickers, titles and icons
 * Leaderboard
