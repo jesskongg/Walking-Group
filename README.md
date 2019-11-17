@@ -2,7 +2,7 @@
 
 #### This project was for CMPT 276 (Intro to Software Engineering) taken in Summer 2018 with Brian Fraser. I worked with three other team members to create this application.
 
-Walking Group is an Android application that encourages students to walk to class. It gives them features to walk safely with a walking group, and communicate with group leaders and their parents. Parents of the student can also monitor their children, keeping them safe.
+Walking Group is an Android application that encourages students to walk to class. Users can commute safely by forming walking groups with other students. Additional safety features include communication with walking group leaders and parental monitoring.
 
 This project interacts with a server made by SFU for this project. It is written in native Java, and interacts with the server using a Retrofit REST interface.
 
